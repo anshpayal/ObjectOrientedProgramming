@@ -68,8 +68,9 @@
     - ### What is Encapsultional?
         - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 ## Mics Questions
-    - ### What are access specifiers and what is their significance?
-        - It restrict the access of data members and member function of class.
-        - These access specifiers also play a very vital role in achieving Encapsulation - one of the major features of OOPs.
-    - ### Diffrence between class and structure.
+
+- ### What are access specifiers and what is their significance?
+    - It restrict the access of data members and member function of class.
+    - These access specifiers also play a very vital role in achieving Encapsulation - one of the major features of OOPs.
+- ### Diffrence between class and structure.
 
