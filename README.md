@@ -63,9 +63,15 @@
         - It is special becuase it has no return type.
     - ### Types of constrcutor
         - Default constructor.
+            - Used to intialize the default values of data members.
+            - Even if we do not create the default constructor, compiler will call a default constructor automatically and set data members to some junk value.
+            - The constructor with no parameter called default constructor.
         - Parameterized constructor.
+            - Used to set user defined values by passing an agrument to the constructor.
+            - The constructor with parameter is called parameterized construtor.
+            - It provides different values to distinct object.
         - Copy constructor.
-    - ### What is Encapsultional?
+    - ### What is Encapsulation?
         - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 ## Mics Questions
 
