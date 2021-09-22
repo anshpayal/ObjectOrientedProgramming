@@ -1,8 +1,11 @@
 # Object Oriented Programming
 
 ## Concepts of OOPS in C++
-- function Overloading: Function can have the same name but different parameters.
-- Object Oriented Programming
+
+- function Overloading: 
+    Function can have the same name but different parameters.
+    Advantage: It increase the readability of program because you don’t use different names for the same action.
+
     - ### Why OOPS?
         - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
         - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
@@ -38,5 +41,13 @@
         - Promotes code reuse, which reducing redundancy.
         - Hides unnecessay details with the help of Data Abstraction.
         - Polymorphism offers a lot of flexibility.
+    - ### What is Object?
+        - Object contains data and operation. Data can be referred as the properties of an
+          object and operations can be referred as the function used to modify and access the data. 
+        - It is an acutal entity to which user is interacted.
+        - When object is created only then memory gets allocated.
+    - ### What is class?
+        - Classes are used to create user defined data types, which contains multiple functions and variables.
+        - Classes are blueprint for object.
 
 
