@@ -53,6 +53,10 @@
         - A function which is present outside the class scope and access the private and protected member of class.
         - It can be declared in public and private section of code.
         - It cannot access  the members directly by using name, instead need object to access the member (example: objectname.membername).
+    - ### What is Friend Class?
+        - A friend class is a class that can access the private and protected members of a class in which it is declared as friend.
+        - In friend function, we have to declare every function individually even if it is of same class.
+        - But if we want that the each and every member function of a class can access the private member of another class then we declare the class as friend class.
     - ### What is Encapsultional?
         - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 
