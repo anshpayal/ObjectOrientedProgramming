@@ -57,6 +57,19 @@
         - A friend class is a class that can access the private and protected members of a class in which it is declared as friend.
         - In friend function, we have to declare every function individually even if it is of same class.
         - But if we want that the each and every member function of a class can access the private member of another class then we declare the class as friend class.
+    - ### What is constructor?
+        - It is special method inside the class that inovked automatically when object of class is created.
+        - It has same name as class.
+        - It is special becuase it has no return type.
+    - ### Types of constrcutor
+        - Default constructor.
+        - Parameterized constructor.
+        - Copy constructor.
     - ### What is Encapsultional?
         - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
+## Mics Questions
+    - ### What are access specifiers and what is their significance?
+        - It restrict the access of data members and member function of class.
+        - These access specifiers also play a very vital role in achieving Encapsulation - one of the major features of OOPs.
+    - ### Diffrence between class and structure.
 
