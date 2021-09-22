@@ -2,7 +2,7 @@
 
 ## Concepts of OOPS in C++
 
-- Function Overloading: 
+- **Function Overloading**: 
     Function can have the same name but different parameters.
     Advantage: It increase the readability of program because you don’t use different names for the same action.
 
