@@ -53,4 +53,6 @@
         - A function which is present outside the class scope and access the private and protected member of class.
         - It can be declared in public and private section of code.
         - It cannot access  the members directly by using name, instead need object to access the member (example: objectname.membername).
+    - ### What is Encapsultional?
+        - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 
