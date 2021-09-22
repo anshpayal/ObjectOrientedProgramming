@@ -10,10 +10,10 @@
     - ### Proceducal Oriented Programming
         - The main focus is on function not in flow of data.
         - Function can either use local or global data.
-        - Data movers openly from function to function.
+        - Data moves openly from function to function.
     - ### Object Oriented Programming
         - It is programming paradigm that is defined using Object instead of only functions 
-        - The object contain propeties (data members) and behaviors (function or member function)
+        - The object contain data (data members) and operations (function or member function)
     - ### Programming Paradigms 
         - The method of classification of programming language based on their features.
         - Mainly two types:
