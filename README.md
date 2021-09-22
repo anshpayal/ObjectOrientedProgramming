@@ -25,18 +25,18 @@
                 - Logical Programming Paradigm
                 - Functional Programming Paradigm
                 - Database Programming Paradigm
-        - ### What are features of OOPS?
-            - Four main features:
-                - Encapsulation
-                - Data Abstraction
-                - Inheritance
-                - Polymorphism
-        - ###  What are the advantages of OOPS?
-            - Improves maintainablity of the code.
-            - Helpful in solving complex problems.
-            - Bottom up approach.
-            - Promotes code reuse, which reducing redundancy.
-            - Hides unnecessay details with the help of Data Abstraction.
-            - Polymorphism offers a lot of flexibility.
+     - ### What are features of OOPS?
+         - Four main features:
+            - Encapsulation
+            - Data Abstraction
+            - Inheritance
+            - Polymorphism
+    - ###  What are the advantages of OOPS?
+        - Improves maintainablity of the code.
+        - Helpful in solving complex problems.
+        - Bottom up approach.
+        - Promotes code reuse, which reducing redundancy.
+        - Hides unnecessay details with the help of Data Abstraction.
+        - Polymorphism offers a lot of flexibility.
 
 
