@@ -40,9 +40,9 @@ int main(){
 // TILL NOW IT IS NORMAL PROGRAM OF ADDING COMPLEX NUMBERS
 // In C++ we can use any operator as the function name, by using 'operator' keyword as prefix of any operator(+)
 //But we can only use valid operator.
-// This method is used when we have to add or to sum other logical computation with non-primitive data, else till now we are using function two add the two non primitve data.
+// This method is used when we have to add or to implement any other mathematical logic with non-primitive data, else till now we are using function two add the two non primitve data.
 
-    c3=c1.operator+(c2); //In just name of function gets changed.
+    c3=c1.operator+(c2); //Just name of function is changed.
     c3.showData();
     
     c4=c1+c2;          //answer will be same just format of function call get changed
