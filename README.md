@@ -73,6 +73,14 @@
         - Copy constructor.
     - ### What is Encapsulation?
         - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
+    - ### What is polymorphism?
+        - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
+        - Polymorphism is base class pointer can refer to a variety of objects.
+          For example:
+            Person is base class and we drived two classes from it one is student and another is faculty. 
+            Person *p= new student; //dynamically created pointer of base class which is pointing to derived class.
+            P=new facutly();  //simlarly base class pointer has reference of faculty object.
+        - Polymorphism is the ability of an object to act diffrently to the same interface(function). 
 ## Mics Questions
 
 - ### What are access specifiers and what is their significance?
