@@ -3,18 +3,18 @@
 ## Concepts of OOPS in C++
 - function Overloading: Function can have the same name but different parameters.
 - Object Oriented Programming
-    - # Why OOPS?
+    - ### Why OOPS?
         - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
         - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
         - Data security is also main concern in C language. 
-    - # Proceducal Oriented Programming
+    - ### Proceducal Oriented Programming
         - The main focus is on function not in flow of data.
         - Function can either use local or global data.
         - Data movers openly from function to function.
-    - # Object Oriented Programming
+    - ### Object Oriented Programming
         - It is programming paradigm that is defined using Object instead of only functions 
         - The object contain propeties (data members) and behaviors (function or member function)
-    - # Programming Paradigms 
+    - ### Programming Paradigms 
         - The method of classification of programming language based on their features.
         - Mainly two types:
             - Imperative Programming Paradigm
