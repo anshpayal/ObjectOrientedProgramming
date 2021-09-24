@@ -41,8 +41,7 @@
         - Hides unnecessay details with the help of Data Abstraction.
         - Polymorphism offers a lot of flexibility.
     - ### What is Object?
-        - Object contains data and operation. Data can be referred as the properties of an
-          object and operations can be referred as the function used to modify and access the data. 
+        - Object contains data (data member) and operation (member functions). Data can be referred as the properties of an object and operations can be referred as the function used to modify and access the data. 
         - It is an acutal entity to which user is interacted.
         - When object is created only then memory gets allocated.
     - ### What is class?
@@ -50,7 +49,7 @@
         - Classes are blueprint for object.
     - ### What is Friend Function?
         - A function which is present outside the class scope and access the private and protected member of class.
-        - It can be declared in public and private section of code.
+        - It can be declared in public and private section of class.
         - It cannot access  the members directly by using name, instead need object to access the member (example: objectname.membername).
     - ### What is Friend Class?
         - A friend class is a class that can access the private and protected members of a class in which it is declared as friend.
@@ -72,6 +71,13 @@
         - Copy constructor.
     - ### What is Encapsulation?
         - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
+    - ### What is Abstraction?
+        - Only relavant parts of the application get revealed, while keeping inner implementation hidden becuase user does not care about implementation, only need relavant outptut.
+        - Provides security of program
+        - Can change implementation of class independently without affecting user experience.
+        - We can achieve abstraction:
+            - **Abstraction class:** Class helps to group data member and member function together using access specifiers and a class can decide which data member will be visible to outside world.
+            - **Abstraction using header file:**We can create the seprate file which contains delacartion part of the class and later import it in main file.
     - ### What is polymorphism?
         - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
         - Polymorphism is base class pointer can refer to a variety of objects.<br/>For example:
