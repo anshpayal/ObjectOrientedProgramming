@@ -76,7 +76,7 @@
         - Provides security of program
         - Can change implementation of class independently without affecting user experience.
         - We can achieve abstraction:
-            - **Abstraction class:** Class helps to group data member and member function together using access specifiers and a class can decide which data member will be visible to outside world.
+            - **Abstraction using class:** Class helps to group data member and member function together using access specifiers and a class can decide which data member will be visible to outside world.
             - **Abstraction using header file:** We can create the seprate file which contains delacartion part of the class and later import it in main file.
     - ### What is polymorphism?
         - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
