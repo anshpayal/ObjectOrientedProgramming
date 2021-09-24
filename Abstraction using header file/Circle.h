@@ -13,5 +13,5 @@ public:
     double area();
     double perimeter();
 };
-#endif
+#endif    //The #ifndef command ends with #endif.
 
