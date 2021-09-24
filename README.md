@@ -80,13 +80,21 @@
             - **Abstraction using header file:** We can create the seprate file which contains delacartion part of the class and later import it in main file.
     - ### What is polymorphism?
         - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
+        - Polymorphism is the ability of an object to take on many forms.
         - Polymorphism is base class pointer can refer to a variety of objects.<br/>For example:
             Person is base class and we drived two classes from it one is student and another is faculty. 
             ```C++
             Person *p= new student; //dynamically created pointer of base class which is pointing to derived class.
             P=new facutly();  //simlarly base class pointer has reference of faculty object.
             ```
-        - Polymorphism is the ability of an object to act diffrently to the same interface(function). 
+    - ### Types of polymorphism?
+        - There are two tpyes of polymorphism.
+            - Compile time polymorphism.
+            - Runtime polymorphism.
+    - ### What is compile time Polymorphism?
+    
+
+
 ## Mics Questions
 
 - ### What are access specifiers and what is their significance?
