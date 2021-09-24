@@ -16,7 +16,7 @@
         - Data moves openly from function to function.
     - ### Object Oriented Programming
         - It is programming paradigm that is defined using Object instead of only functions 
-        - The object contain data (data members) and operations (function or member function)
+        - The object contains data (data members) and operations (function or member function) used to manipulate the data members.
     - ### Programming Paradigms 
         - The method of classification of programming language based on their features.
         - Mainly two types:
@@ -37,7 +37,6 @@
     - ###  What are the advantages of OOPS?
         - Improves maintainablity of the code.
         - Helpful in solving complex problems.
-        - Bottom up approach.
         - Promotes code reuse, which reducing redundancy.
         - Hides unnecessay details with the help of Data Abstraction.
         - Polymorphism offers a lot of flexibility.
