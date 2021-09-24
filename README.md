@@ -90,7 +90,10 @@
     - There are two tpyes of polymorphism.
         - Compile time polymorphism.
         - Runtime polymorphism.
-- ### What is compile time Polymorphism?
+- ### What is compile time Polymorphism / Early binding/ static ?
+    - When program starts executing, it executes from main() in c++. 
+    - If function call get encountered, the execution jumps to the beginning of function being called.
+    - 
 
 
 
