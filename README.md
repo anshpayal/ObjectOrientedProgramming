@@ -70,16 +70,19 @@
     - Copy constructor.
 - ### What is this pointer?
     - **Object Pointer:** A pointer contains address of object is called object pointer.<br/>
-    Let's take example that their is a class name **Box**, which has data members **l,b and h** and member functions **setDimension & showDimension**. 
+    Let's take a example that their is a class name **Box**, which has data members **l,b and h** and member functions **setDimension() & showDimension()**. 
     ```C++
     int main(){
-        Box *p ;//this is object pointer
-        Box smallBox; //this object
-        p=&smallBox; //small box address get stored in p pointer
-        p->setDimension(1,2,3);
+        Box *p ;//this is a pointer of type Box
+        Box smallBox; //this object of class Box
+        p=&smallBox; //pointer p stores the address of smallBox object thats why it is object pointer
+        p->setDimension(1,2,3); //can access the member function using pointer
         p->showDimension();
     }
     ``` 
+    - **This Pointer:** 
+        - this is a keyword in C++.
+        - this is a local object pointer in every instance member function of class containing address of the caller object. (instance member function are those function which do not contain the static keyword as prefix)
 - ### What is Encapsulation?
     - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 - ### What is Abstraction?
