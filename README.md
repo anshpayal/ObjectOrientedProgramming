@@ -68,6 +68,18 @@
         - The constructor with parameter is called parameterized construtor.
         - It provides different values to distinct object.
     - Copy constructor.
+- ### What is this pointer?
+    - **Object Pointer:** A pointer contains address of object is called object pointer.<br/>
+    Let's take example that their is a class name **Box**, which has data members **l,b and h** and member functions **setDimension & showDimension**. 
+    ```C++
+    int main(){
+        Box *p ;//this is object pointer
+        Box smallBox; //this object
+        p=&smallBox; //small box address get stored in p pointer
+        p->setDimension(1,2,3);
+        p->showDimension();
+    }
+    ``` 
 - ### What is Encapsulation?
     - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 - ### What is Abstraction?
@@ -80,7 +92,7 @@
 - ### What is polymorphism?
     - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
     - Polymorphism is the ability of an object to take on many forms.
-    - Polymorphism is base class pointer can refer to a variety of objects.<br/>For example:
+    - (Optional) Polymorphism is base class pointer can refer to a variety of objects.<br/>For example:
         Person is base class and we drived two classes from it one is student and another is faculty. 
         ```C++
         Person *p= new student; //dynamically created pointer of base class which is pointing to derived class.
