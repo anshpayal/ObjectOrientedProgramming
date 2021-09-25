@@ -83,6 +83,8 @@
     - **This Pointer:** 
         - this is a keyword in C++.
         - this is a local object pointer in every instance member function of class containing address of the caller object. (instance member function are those function which do not contain the static keyword as prefix)
+        - this pointer can not be modify.
+        - It is used to refer caller object in member function.
 - ### What is Encapsulation?
     - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 - ### What is Abstraction?
