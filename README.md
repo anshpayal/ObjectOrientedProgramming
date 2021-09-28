@@ -1,7 +1,5 @@
 # Object Oriented Programming
 
-## Concepts of OOPS in C++
-
 - **Function Overloading**: 
     Function can have the same name but different parameters.
     Advantage: It increase the readability of program because you don’t use different names for the same action.
@@ -94,6 +92,16 @@
     - We can achieve abstraction:
         - **Abstraction using class:** Class helps to group data member and member function together using access specifiers and a class can decide which data member will be visible to outside world.
         - **Abstraction using header file:** We can create the seprate file which contains delacartion part of the class and later import it in main file.
+- ### What is inheritance?
+    - It is process of inheriting properties and behaviours of existing class into a new class.<br/>
+    ```C++
+    class BaseClass{
+
+    }
+    class Derived class: accessSpecifier BaseClass{
+        
+    }
+    ```
 - ### What is polymorphism?
     - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
     - Polymorphism is the ability of an object to take on many forms.
