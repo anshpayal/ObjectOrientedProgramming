@@ -98,10 +98,57 @@
     class BaseClass{
 
     }
-    class Derived class: accessSpecifier BaseClass{
+    class DerivedClass: accessSpecifier BaseClass{
+
+    }
+    ```
+- ### Types of inheritance
+    - Single inheritance.<br/>
+    ```C++
+    class BaseClass{
+
+    }
+    class DerivedClass: public BaseClass{
+
+    }
+    ```
+    - Multilevel inheritance.<br/>
+    ```C++
+    class BaseClass{
+
+    }
+    class DerivedClass1: public BaseClass{
+
+    }
+    class DerivedClass2: public DerivedClass1{
         
     }
     ```
+    - Multiple inheritance.<br/>
+    ```C++
+    class BaseClass1{
+
+    }
+    class BaseClass2{
+
+    }
+    class DerivedClass2: public BaseClass1, public BaseClass2{
+        
+    }
+    ```
+    - Hierarchical inheritance.<br/>
+    ```C++
+    class BaseClass{
+
+    }
+    class DerivedClass1: public BaseClass{
+
+    }
+    class DerivedClass2: public BaseClass{
+        
+    }
+    ```
+    - Hybrid inheritance:It is mixture of two or more tpyes of inheritance.
 - ### What is polymorphism?
     - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
     - Polymorphism is the ability of an object to take on many forms.
