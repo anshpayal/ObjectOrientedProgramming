@@ -161,7 +161,7 @@ protected:
 public:
     //members
 };
-Class B: Access_Specifiers A{
+Class B: Access_Specifier A{
 private:
     //members
 protected:
