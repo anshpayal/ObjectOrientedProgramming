@@ -149,6 +149,10 @@
     }
     ```
     - Hybrid inheritance:It is mixture of two or more tpyes of inheritance.
+
+- ### What is role of access specifiers (class DerivedClass: accessSpecifier BaseClass{};) while inherting the class?
+    - Consider that their is class A and class B is derived from class A. There are three ways in which we can use the access specifiers while inherting:
+        - Class A: private B (Class A: B) -> It means public and protected member of class A 
 - ### What is polymorphism?
     - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
     - Polymorphism is the ability of an object to take on many forms.
