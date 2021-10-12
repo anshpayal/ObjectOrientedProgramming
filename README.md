@@ -13,7 +13,7 @@
     - [ ] Copy
 9. [ ] Destructor
 10. [x] Object and This pointer
-11. [] Dangeling, void , NULL pointer
+11. [ ] Dangeling, void , NULL pointer
 12. [x] Encapsulation
 13. [x] Abstraction
 14. [x] Inheritance
@@ -212,7 +212,7 @@ public:
     - If function call get encountered, the execution jumps to the beginning of function being called.
     - As soon as program is compiled, the compiler converts each statement in C++ program into machinge language.
     - Each line of machine language is given its own unique sequential address, therefore each function ends up with a unique address.
-    - **Binding** means the process of converting identifiers into address. For each variable and functions this binding is done. For function, it means that matching the call with the rigth function definition by the compiler. The binding is done either at compile time or run time.
+    - **Binding** means the process of converting *identifiers* into address. For each variable and functions this binding is done. For function, it means that matching the call with the rigth function definition by the compiler. The binding is done either at compile time or run time.
     - As the name indicates, compiler links the function call with the correct function definition at compile time.<br/>
     For example: <br/>
     - We can achieve Compile time polymorphism by **Function overloading and Operator overloading**.
