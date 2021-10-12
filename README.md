@@ -184,7 +184,34 @@ public:
 - ### What is compile time Polymorphism / Early binding/ static ?
     - When program starts executing, it executes from main() in c++. 
     - If function call get encountered, the execution jumps to the beginning of function being called.
-    - 
+    - As soon as program is compiled, the compiler converts each statement in C++ program into machinge language.
+    - Each line of machine language is given its own unique sequential address, therefore each function ends up with a unique address.
+    - **Binding** means the process of converting identifiers into address. For each variable and functions this binding is done. For function, it means that matching the call with the rigth function definition by the compiler. The binding is done either at compile time or run time.
+    - As the name indicates, compiler links the function call with the correct function definition at compile time.<br/>
+    For example: <br/>
+    ```C++
+    class Base
+    {
+    public:
+        void show() { cout<<" In Base \n"; }
+    };
+    
+    class Derived: public Base
+    {
+    public:
+        void show() { cout<<"In Derived \n"; }
+    };
+    int main(void)
+    {
+        Base *bp = new Derived;
+        // The function call decided at 
+        // compile time (compiler sees type
+        // of pointer and calls base class
+        // function.
+        bp->show();  
+        return 0;
+    }
+    ```
 
 
 
