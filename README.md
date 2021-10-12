@@ -1,8 +1,6 @@
 # Object Oriented Programming
 
-- **Function Overloading**: 
-    Function can have the same name but different parameters.
-    Advantage: It increase the readability of program because you don’t use different names for the same action.
+**AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
  - ### Why OOPS?
     - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
     - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
@@ -189,30 +187,11 @@ public:
     - **Binding** means the process of converting identifiers into address. For each variable and functions this binding is done. For function, it means that matching the call with the rigth function definition by the compiler. The binding is done either at compile time or run time.
     - As the name indicates, compiler links the function call with the correct function definition at compile time.<br/>
     For example: <br/>
-    ```C++
-    class Base
-    {
-    public:
-        void show() { cout<<" In Base \n"; }
-    };
-    
-    class Derived: public Base
-    {
-    public:
-        void show() { cout<<"In Derived \n"; }
-    };
-    int main(void)
-    {
-        Base *bp = new Derived;
-        // The function call decided at 
-        // compile time (compiler sees type
-        // of pointer and calls base class
-        // function.
-        bp->show();  
-        return 0;
-    }
-    ```
     - We can achieve Compile time polymorphism by **Function overloading and Operator overloading**.
+- ### What is Function Overloading?
+    Function can have the same name but different parameters.
+    Advantage: It increase the readability of program because you don’t use different names for the same action.
+- ### What is Method 
 
 
 
