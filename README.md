@@ -212,6 +212,7 @@ public:
         return 0;
     }
     ```
+    - We can achieve Compile time polymorphism by **Function overloading and Operator overloading**.
 
 
 
