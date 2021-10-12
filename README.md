@@ -225,7 +225,10 @@ Advantage: It increase the readability of program because you don’t use differ
     - This method is used when we have to add or to implement any other mathematical logic with *non-primitive data*, else till now we are using function two add the two non primitve data.
     - When a opeator is overloaded with multiple jobs, it is know as operator overloading.
 
-
+- ### What is Method Overriding?
+    - Function overriding in C++ is a feature that allows us to use a function in the child class that is already present in its parent class.
+    - The child class inherits all the data members, and the member functions present in the parent class. If you wish to override any functionality in the child class, then you can implement function overriding.
+    -  Function overriding means creating a newer version of the parent class function in the child class. 
 
 ## Mics Questions
 
