@@ -11,22 +11,22 @@
     - [x] Default
     - [x] Parameterized
     - [ ] Copy
-9. [] Destructor
+9. [ ] Destructor
 10. [x] Object and This pointer
 11. [] Dangeling, void , NULL pointer
 12. [x] Encapsulation
 13. [x] Abstraction
 14. [x] Inheritance
-15. [] Polymorphism
+15. [ ] Polymorphism
     - [x] Compile Time
     - [x] Method Overloading
     - [x] Operator Overloading
-    - [] Run Time
-    - [] Method Overridding
-    - [] Virtual function
-    - [] Template 
-    - [] Virtual Destrcutor
-    - [] Virtual pointer
+    - [ ] Run Time
+    - [ ] Method Overridding
+    - [ ] Virtual function
+    - [ ] Template 
+    - [ ] Virtual Destrcutor
+    - [ ] Virtual pointer
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
  - ### Why OOPS?
