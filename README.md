@@ -1,11 +1,23 @@
 # Object Oriented Programming
+## TOPICS
+1. [x] About OOPS
+2. [ ] Procedural Oriented Programming
+3. [ ] Programming Paradigm
+4. [ ] Object
+5. [ ] Class 
+6. [ ] Friend Function
+7. [ ] Friend Class
+8. [ ] Constructor
+    - [ ] Default
+    - [ ] Parameterized
+    - [ ] Copy
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
  - ### Why OOPS?
     - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
     - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
     - Data security is another main concern in C language. 
- - ### Proceducal Oriented Programming
+ - ### Procedural Oriented Programming
     - The main focus is on function not in flow of data.
     - Function can either use local or global data.
     - Data moves openly from function to function.
@@ -189,9 +201,13 @@ public:
     For example: <br/>
     - We can achieve Compile time polymorphism by **Function overloading and Operator overloading**.
 - ### What is Function Overloading?
-    Function can have the same name but different parameters.
-    Advantage: It increase the readability of program because you don’t use different names for the same action.
-- ### What is Method 
+Function can have the same name but different parameters.
+Advantage: It increase the readability of program because you don’t use different names for the same action.
+- ### What is Operator Overloading?
+    - In C++ we can use any operator as the function name, by using 'operator' keyword as prefix of any operator(+)
+    - But we can only use valid operator.
+    - This method is used when we have to add or to implement any other mathematical logic with *non-primitive data*, else till now we are using function two add the two non primitve data.
+    - When a opeator is overloaded with multiple jobs, it is know as operator overloading.
 
 
 
