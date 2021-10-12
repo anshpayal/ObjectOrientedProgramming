@@ -1,16 +1,32 @@
 # Object Oriented Programming
 ## TOPICS
 1. [x] About OOPS
-2. [ ] Procedural Oriented Programming
-3. [ ] Programming Paradigm
-4. [ ] Object
-5. [ ] Class 
-6. [ ] Friend Function
-7. [ ] Friend Class
-8. [ ] Constructor
-    - [ ] Default
-    - [ ] Parameterized
+2. [x] Procedural Oriented Programming
+3. [x] Programming Paradigm
+4. [x] Object
+5. [x] Class 
+6. [x] Friend Function
+7. [x] Friend Class
+8. [x] Constructor
+    - [x] Default
+    - [x] Parameterized
     - [ ] Copy
+9. [] Destructor
+10. [x] Object and This pointer
+11. [] Dangeling, void , NULL pointer
+12. [x] Encapsulation
+13. [x] Abstraction
+14. [x] Inheritance
+15. [] Polymorphism
+    - [x] Compile Time
+    - [x] Method Overloading
+    - [x] Operator Overloading
+    - [] Run Time
+    - [] Method Overridding
+    - [] Virtual function
+    - [] Template 
+    - [] Virtual Destrcutor
+    - [] Virtual pointer
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
  - ### Why OOPS?
