@@ -109,9 +109,35 @@
         - this is a local object pointer in every instance member function of class containing address of the caller object. (instance member function are those function which do not contain the static keyword as prefix)
         - this pointer can not be modify.
         - It is used to refer caller object in member function.
-- ### What is Dangling Pointer?
+- ### What is Dangling pointer?
 A pointer pointing to a memory loaction that has been deleted is called dangling pointer.<br/>
 There are three ways where pointer acts as dangling pointer: De allocation of memory, function call and value goes out of scope.
+- ### What is Void pointer?
+    - Void pointer is a specific pointer type **void*ptr**
+    - It points to some data loaction in storage, and it also does not have any specific type.
+    - It can point any tpye of data.
+    - Any pointer type is convertible to a void pointer hence it can point to any value.
+```C++
+#include<stdlib.h>
+#include<stdio.h>
+
+int main()
+{
+	int x = 4;
+	float y = 5.5;
+	//A void pointer
+	void *ptr;
+	ptr = &x;
+	// (int*)ptr - does type casting of void
+	// *((int*)ptr) dereferences the typecasted
+	// void pointer variable.
+	printf("Integer variable is = %d", *( (int*) ptr) );
+	// void pointer is now float
+	ptr = &y;
+	printf("\nFloat variable is= %f", *( (float*) ptr) );
+	return 0;
+}
+```
 - ### What is NULL pointer?
 A pointer is a pointer which is ponting to nothing. if we don't have address to be assigned to pointer, then we can simply use NULL.
 ```C++
@@ -124,7 +150,7 @@ int main()
     return 0;
 }//OUTPUT: The value of ptr is (nil)
 ```
-- ### What is Wild Pointer?
+- ### What is Wild pointer?
 A pointer which has not be intialized to anything (not even NULL) is know as wild pointer. 
 ```C++
 int main()
