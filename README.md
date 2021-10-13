@@ -302,7 +302,7 @@ Advantage: It increase the readability of program because you don’t use differ
 - ### What is Method Overriding?
     - Function overriding in C++ is a feature that allows us to use a function in the child class that is already present in its parent class.
     - The child class inherits all the data members, and the member functions present in the parent class. If you wish to override any functionality in the child class, then you can implement function overriding.
-    -  Function overriding means creating a newer version of the parent class function in the child class.
+    -  Function overriding means creating a newer version of the parent class function in the child class.<br/>
     *Check code to understand the problem in overriding* 
 - ### What is virtual function?
 A virtual function is a member function which is declared in the base class using the keyword virtual and is re-defined (Overriden) by the derived class.
