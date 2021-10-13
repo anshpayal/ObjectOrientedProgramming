@@ -23,12 +23,13 @@
     - [x] Compile Time
     - [x] Method Overloading
     - [x] Operator Overloading
-    - [ ] Run Time
-    - [ ] Method Overriding
-    - [ ] Virtual function
-    - [ ] Template 
+    - [x] Run Time
+    - [x] Method Overriding
+    - [x] Virtual function
+    - [x] Virtual pointer
     - [ ] Virtual Destrcutor
-    - [ ] Virtual pointer
+    - [ ] Template 
+
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
  - ### Why OOPS in C++?
@@ -296,12 +297,32 @@ Advantage: It increase the readability of program because you don’t use differ
     - But we can only use valid operator.
     - This method is used when we have to add or to implement any other mathematical logic with *non-primitive data*, else till now we are using function two add the two non primitve data.
     - When a opeator is overloaded with multiple jobs, it is know as operator overloading.
+- ### What is Runtime polymorphism?
 
 - ### What is Method Overriding?
     - Function overriding in C++ is a feature that allows us to use a function in the child class that is already present in its parent class.
     - The child class inherits all the data members, and the member functions present in the parent class. If you wish to override any functionality in the child class, then you can implement function overriding.
     -  Function overriding means creating a newer version of the parent class function in the child class.
     *Check code to understand the problem in overriding* 
+- ### What is virtual function?
+A virtual function is a member function which is declared in the base class using the keyword virtual and is re-defined (Overriden) by the derived class.
+- ### Rule of virtual function?
+    - Virtual functions cannot be static.
+    - A virtual function can be a friend function of another class.
+    - The prototype of virtual functions should be the same in the base as well as derived class.
+    - They are always defined in the base class and overridden in a derived class. It is not mandatory for the derived class to override (or re-define the virtual function), in that case, the base class version of the function is used.
+
+    - Concept 1:
+        - In any class, if virtual function is decalred then compiler itself create one extra variable inside parent class which is virtual pointer (*__vptr__). For checking this, create the object of class and check size, it will 2 bytes more.
+        - For child class, compiler do not declare virtual pointer seprately becuase it gets inherited from parent class. 
+        - It depends on object, whenever you create object of class vptr is created but only in case if class has virtual function or parent class contains virtual function.
+        - If parent class contain virtual function then the overriden class also become virtual without declaring it virtual.
+    - Concept 2:
+        - Compiler make static array, which stores pointers pointing to function.
+        - This static array is called Vtable.
+        - Every child class has it own Vtable.
+        - Virtual pointer (*__vptr__) points to vtable.
+
 
 ## Mics Questions
 
@@ -309,4 +330,8 @@ Advantage: It increase the readability of program because you don’t use differ
     - It restrict the access of data members and member function of class.
     - These access specifiers also play a very vital role in achieving Encapsulation - one of the major features of OOPs.
 - ### Diffrence between class and structure.
+
+- ### Diffrence between C and C++.
+
+- ### Diffrence between java and C++.
 
