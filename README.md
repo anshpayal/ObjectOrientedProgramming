@@ -110,8 +110,21 @@
         - this pointer can not be modify.
         - It is used to refer caller object in member function.
 - ### What is Dangling pointer?
-A pointer pointing to a memory loaction that has been deleted is called dangling pointer.<br/>
+A pointer pointing to a memory loaction that has been deleted (non-existing) is called dangling pointer.<br/>
 There are three ways where pointer acts as dangling pointer: De allocation of memory, function call and value goes out of scope.
+Example:
+```C++
+int main(){
+    int *ptr=(int *)malloc(sizeof(int));
+    ....
+    ....
+    free(ptr); 
+    //Now ptr is become dangling pointer because it is pointing to memory location that is free or non-existing.
+    //Solution:
+    ptr = NULL;
+    return 0;
+}
+```
 - ### What is Void pointer?
     - Void pointer is a specific pointer type **void*ptr**
     - It points to some data loaction in storage, and it also does not have any specific type.
