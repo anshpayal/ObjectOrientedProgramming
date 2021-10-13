@@ -13,7 +13,7 @@
     - [ ] Copy
 9. [ ] Destructor
 10. [x] Object and This pointer
-11. [ ] Dangeling, void , NULL pointer
+11. [ ] Dangaling, void , NULL and Wild pointer
 12. [x] Encapsulation
 13. [x] Abstraction
 14. [x] Inheritance
@@ -29,7 +29,7 @@
     - [ ] Virtual pointer
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
- - ### Why OOPS?
+ - ### Why OOPS in C++?
     - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
     - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
     - Data security is another main concern in C language. 
@@ -39,7 +39,7 @@
     - Data moves openly from function to function.
 - ### Object Oriented Programming
     - It is programming paradigm that is defined using Object instead of only functions 
-    - The object contains data (data members) and operations (function or member function) used to manipulate the data members.
+    - The object contains data (data members) and operations (function or member function) which is used to manipulate the data members.
 - ### Programming Paradigms 
     - The method of classification of programming language based on their features.
      - Mainly two types:
@@ -109,6 +109,36 @@
         - this is a local object pointer in every instance member function of class containing address of the caller object. (instance member function are those function which do not contain the static keyword as prefix)
         - this pointer can not be modify.
         - It is used to refer caller object in member function.
+- ### What is Dangling Pointer?
+A pointer pointing to a memory loaction that has been deleted is called dangling pointer.<br/>
+There are three ways where pointer acts as dangling pointer: De allocation of memory, function call and value goes out of scope.
+- ### What is NULL pointer?
+A pointer is a pointer which is ponting to nothing. if we don't have address to be assigned to pointer, then we can simply use NULL.
+```C++
+int main()
+{
+    // Null Pointer
+    int *ptr = NULL;
+      
+    printf("The value of ptr is %p", ptr);
+    return 0;
+}//OUTPUT: The value of ptr is (nil)
+```
+- ### What is Wild Pointer?
+A pointer which has not be intialized to anything (not even NULL) is know as wild pointer. 
+```C++
+int main()
+{
+    int *p;  /* wild pointer */
+  
+    int x = 10;
+  
+    // p is not a wild pointer now
+    p = &x;
+  
+    return 0;
+}
+```
 - ### What is Encapsulation?
     - Binding the data members and member function of class to do a specific job, without reavling the unneccessary detail.
 - ### What is Abstraction?
