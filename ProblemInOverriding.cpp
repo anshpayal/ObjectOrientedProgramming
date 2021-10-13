@@ -30,6 +30,7 @@ int main(){
     pointer=&obj2; //from point 1 in note
 
     pointer->Display();
+}
 /*
     OUTPUT: THIS IS PARENT CLASS
     The problem Here is :
