@@ -13,16 +13,18 @@
     - [ ] Copy
 9. [ ] Destructor
 10. [x] Object and This pointer
-11. [ ] Dangaling, void , NULL and Wild pointer
+11. [x] Dangaling, Void , NULL and Wild pointer
 12. [x] Encapsulation
 13. [x] Abstraction
 14. [x] Inheritance
+    - [x] Types of inheritance
+    - [ ] Daimond problem
 15. [ ] Polymorphism
     - [x] Compile Time
     - [x] Method Overloading
     - [x] Operator Overloading
     - [ ] Run Time
-    - [ ] Method Overridding
+    - [ ] Method Overriding
     - [ ] Virtual function
     - [ ] Template 
     - [ ] Virtual Destrcutor
@@ -121,7 +123,7 @@ int main(){
     free(ptr); 
     //Now ptr is become dangling pointer because it is pointing to memory location that is free or non-existing.
     //Solution:
-    ptr = NULL;
+    //ptr = NULL;
     return 0;
 }
 ```
@@ -268,6 +270,7 @@ public:
 - Class A: **private** B (Class A: B) -> It means public and protected members of Base class (class A) when inherited by derived class (class B), they will become private member of derived class (class B).
 - Class A: **protected** B -> It means public and protected members of Base class (class A) when inherited by derived class (class B), they will become protected member of derived class (class B).
 - Class A: **public** B -> It means public and protected members of Base class (class A) when inherited by derived class (class B), they will remain same in derived class (class B) also.
+- ### What is problem in Inheritance in C++ and how it is solved in java?
 
 - ### What is polymorphism?
     - Poly means many and morph means forms. When one thing has many forms it is know as polymorphism.
@@ -297,7 +300,8 @@ Advantage: It increase the readability of program because you don’t use differ
 - ### What is Method Overriding?
     - Function overriding in C++ is a feature that allows us to use a function in the child class that is already present in its parent class.
     - The child class inherits all the data members, and the member functions present in the parent class. If you wish to override any functionality in the child class, then you can implement function overriding.
-    -  Function overriding means creating a newer version of the parent class function in the child class. 
+    -  Function overriding means creating a newer version of the parent class function in the child class.
+    *Check code to understand the problem in overriding* 
 
 ## Mics Questions
 
