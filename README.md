@@ -42,8 +42,7 @@
     - Data moves openly from function to function.
 - ### Object Oriented Programming
     - It is programming paradigm that is defined using Object instead of only functions 
-    - The object contains data (data members) and operations (function or member function) which is used to manipulate the data members.
-    OR <br>
+    - The object contains data (data members) and operations (function or member function) which is used to manipulate the data members. <br> OR <br>
     - It is programming style that revolve around objects.
     - The object is entity that has some properties(data member) and behaviour(functions).
     - We can relate object to real world entity because every object around us also have some properties and behaviour. 
