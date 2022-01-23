@@ -43,6 +43,11 @@
 - ### Object Oriented Programming
     - It is programming paradigm that is defined using Object instead of only functions 
     - The object contains data (data members) and operations (function or member function) which is used to manipulate the data members.
+    OR <br>
+    - It is programming style that revolve around objects.
+    - The object is entity that has some properties(data member) and behaviour(functions).
+    - We can relate object to real world entity because every object around us also have some properties and behaviour. 
+    - For example: You play games. In game thier is a hero and enemy. Hero have some properties like Name, health, level and have some behaviour like Attack, Defense, dance etc. So, In programming Hero and enemy both are objects. 
 - ### Programming Paradigms 
     - The method of classification of programming language based on their features.
      - Mainly two types:
