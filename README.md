@@ -77,6 +77,11 @@
 - ### What is class?
     - Classes are used to create user defined data types, which contains multiple functions and variables.
     - Classes are blueprint for object.
+
+- ### What is Access Modifiers?
+    - It helps in defining the accessibility of the data members and member functions inside class. 
+    - There are three types of access modifiers: Public, Private and Protected. 
+    - By default all the data member and member function are private. Means it cannot access outside the class.
 - ### What is Friend Function?
     - A function which is present outside the class scope and access the private and protected member of class.
     - It can be declared in public and private section of class.
