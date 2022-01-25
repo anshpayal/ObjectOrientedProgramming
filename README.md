@@ -1,44 +1,47 @@
 # Object Oriented Programming
 ## TOPICS
-[x] About OOPS
-[x] Procedural Oriented Programming
-[x] Programming Paradigm
-[x] Class 
-[x] Object
-[x] Access Modifiers
-[x] Getters and Setters
-[ ] BTS of Object creation
-[x] Object and This pointer
-[x] Dangaling, Void , NULL and Wild pointer
-[x] Constructor
- - [x] Default
- - [x] Parameterized
- - [ ] Copy
- - [ ] Deep and Shallow
-[ ] Destructor
-[ ] Initializtion List
-[ ] Const Keyword
- - [ ] Object Creation
- - [ ] const functions
- - [ ] Member data types
-[ ] Static Keyword
-[x] Friend Function
-[x] Friend Class
-[x] Encapsulation
-[x] Abstraction
-[x] Inheritance
- - [x] Types of inheritance
- - [ ] Daimond problem
-[ ] Polymorphism
-- [x] Compile Time
-- [x] Method Overloading
-- [x] Operator Overloading
-- [x] Run Time
-- [x] Method Overriding
-- [x] Virtual function
-- [x] Virtual pointer
-- [ ] Virtual Destrcutor
-- [ ] Template 
+- [x] About OOPS
+- [x] Procedural Oriented Programming
+- [x] Programming Paradigm
+- [x] Class 
+- [x] Object
+- [x] Access Modifiers
+- [x] Getters and Setters
+- [ ] BTS of Object creation
+- [x] Object and This pointer
+    - [x] Dangaling pointer
+    - [x] Void pointer
+    - [x] NULL pointer 
+    - [x] Wild pointer
+- [x] Constructor
+    - [x] Default
+    - [x] Parameterized
+    - [ ] Copy
+    - [ ] Deep and Shallow
+- [ ] Destructor
+- [ ] Initializtion List
+- [ ] Const Keyword
+    - [ ] Object Creation
+    - [ ] const functions
+    - [ ] Member data types
+- [ ] Static Keyword
+- [x] Friend Function
+- [x] Friend Class
+- [x] Encapsulation
+- [x] Abstraction
+- [x] Inheritance
+    - [x] Types of inheritance
+    - [ ] Daimond problem
+- [ ] Polymorphism
+    - [x] Compile Time
+    - [x] Method Overloading
+    - [x] Operator Overloading
+    - [x] Run Time
+    - [x] Method Overriding
+    - [x] Virtual function
+    - [x] Virtual pointer
+    - [ ] Virtual Destrcutor
+    - [ ] Template 
 
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
