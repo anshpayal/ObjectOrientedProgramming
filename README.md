@@ -1,34 +1,44 @@
 # Object Oriented Programming
 ## TOPICS
-1. [x] About OOPS
-2. [x] Procedural Oriented Programming
-3. [x] Programming Paradigm
-4. [x] Object
-5. [x] Class 
-6. [x] Friend Function
-7. [x] Friend Class
-8. [x] Constructor
-    - [x] Default
-    - [x] Parameterized
-    - [ ] Copy
-9. [ ] Destructor
-10. [x] Object and This pointer
-11. [x] Dangaling, Void , NULL and Wild pointer
-12. [x] Encapsulation
-13. [x] Abstraction
-14. [x] Inheritance
-    - [x] Types of inheritance
-    - [ ] Daimond problem
-15. [ ] Polymorphism
-    - [x] Compile Time
-    - [x] Method Overloading
-    - [x] Operator Overloading
-    - [x] Run Time
-    - [x] Method Overriding
-    - [x] Virtual function
-    - [x] Virtual pointer
-    - [ ] Virtual Destrcutor
-    - [ ] Template 
+[x] About OOPS
+[x] Procedural Oriented Programming
+[x] Programming Paradigm
+[x] Class 
+[x] Object
+[x] Access Modifiers
+[x] Getters and Setters
+[ ] BTS of Object creation
+[x] Object and This pointer
+[x] Dangaling, Void , NULL and Wild pointer
+[x] Constructor
+ - [x] Default
+ - [x] Parameterized
+ - [ ] Copy
+ - [ ] Deep and Shallow
+[ ] Destructor
+[ ] Initializtion List
+[ ] Const Keyword
+ - [ ] Object Creation
+ - [ ] const functions
+ - [ ] Member data types
+[ ] Static Keyword
+[x] Friend Function
+[x] Friend Class
+[x] Encapsulation
+[x] Abstraction
+[x] Inheritance
+ - [x] Types of inheritance
+ - [ ] Daimond problem
+[ ] Polymorphism
+- [x] Compile Time
+- [x] Method Overloading
+- [x] Operator Overloading
+- [x] Run Time
+- [x] Method Overriding
+- [x] Virtual function
+- [x] Virtual pointer
+- [ ] Virtual Destrcutor
+- [ ] Template 
 
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
