@@ -45,14 +45,7 @@
 
 
 **AFTER EVERY CONCEPT CHECKOUT CODE AND RESEARCH MORE FOR BETTER UNDERSTANDING**
- - ### Why OOPS in C++?
-    - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
-    - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
-    - Data security is another main concern in C language. 
- - ### Procedural Oriented Programming
-    - The main focus is on function not in flow of data.
-    - Function can either use local or global data.
-    - Data moves openly from function to function.
+
 - ### Object Oriented Programming
     - It is programming paradigm that is defined using Object instead of only functions 
     - The object contains data (data members) and operations (function or member function) which is used to manipulate the data members. <br> OR <br>
@@ -60,6 +53,27 @@
     - The object is entity that has some properties(data member) and behaviour(functions).
     - We can relate object to real world entity because every object around us also have some properties and behaviour. 
     - For example: You play games. In game thier is a hero and enemy. Hero have some properties like Name, health, level and have some behaviour like Attack, Defense, dance etc. So, In programming Hero and enemy both are objects. 
+ - ### Why OOPS in C++?
+    - As the size of program increases the readability, maintainbility and bug free nature of program decrease.
+    - This was the major problem with C language which relied upon function or procedures.(Hence named as procedural programming language)
+    - Data security is another main concern in C language. 
+
+- ###  What are the advantages of OOPS?
+    - Improves maintainablity of the code.
+    - Helpful in solving complex problems.
+    - Promotes code reuse, which reducing redundancy.
+    - Hides unnecessay details with the help of Data Abstraction.
+    - Polymorphism offers a lot of flexibility.
+- ### What are features of OOPS?
+     - Four main features:
+        - Encapsulation
+        - Data Abstraction
+        - Inheritance
+        - Polymorphism
+ - ### Procedural Oriented Programming
+    - The main focus is on function not in flow of data.
+    - Function can either use local or global data.
+    - Data moves openly from function to function.
 - ### Programming Paradigms 
     - The method of classification of programming language based on their features.
      - Mainly two types:
@@ -71,18 +85,8 @@
             - Logical Programming Paradigm
             - Functional Programming Paradigm
             - Database Programming Paradigm
-- ### What are features of OOPS?
-     - Four main features:
-        - Encapsulation
-        - Data Abstraction
-        - Inheritance
-        - Polymorphism
-- ###  What are the advantages of OOPS?
-    - Improves maintainablity of the code.
-    - Helpful in solving complex problems.
-    - Promotes code reuse, which reducing redundancy.
-    - Hides unnecessay details with the help of Data Abstraction.
-    - Polymorphism offers a lot of flexibility.
+
+
 - ### What is Object?
     - Object contains data (data member) and operation (member functions). Data can be referred as the properties of an object and operations can be referred as the function used to modify and access the data. 
     - It is an acutal entity to which user is interacted.
